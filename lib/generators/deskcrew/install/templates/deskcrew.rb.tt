@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+# DeskCrew support widget. Get the key from your DeskCrew dashboard, Install page.
+Deskcrew.configure do |config|
+  config.widget_key = ENV.fetch("DESKCREW_WIDGET_KEY", nil) # "pub_..."
+  config.board = ENV.fetch("DESKCREW_BOARD", nil)           # your board slug
+  config.site_url = "https://www.example.com"               # this site's public origin
+  # config.color = "#4f46e5"
+  # config.position = "right"
+  # config.greeting = "Hi! How can we help?"
+  # config.auto_inject = true   # or call deskcrew_widget_tag in your layout
+  # config.enabled = !Rails.env.test?
+end
