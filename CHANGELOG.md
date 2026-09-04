@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Source, changelog and issue links point at the standalone repository github.com/webmilmind1/deskcrew-rails. No code changes.
+
 ## 1.0.1
 
 - README and gem description rewritten around the questions people search for (live chat for Rails, AI support chatbot, contact form to ticket, Hotwire and Turbo). No code changes.
